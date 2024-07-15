@@ -1,6 +1,6 @@
 # Multi-Class Chest X-Ray Classification with EfficientNet-B0
 
-This repository contains the code and documentation for the paper "Multi-Class Chest X-Ray Classification with EfficientNet-B0". The goal of this project is to classify chest X-ray (CXR) images into four categories: COVID-19, pneumonia, tuberculosis (TB), and healthy lungs using the EfficientNet-B0 model.
+This repository contains the code and documentation for the paper "Multi-Class Chest X-Ray Classification with EfficientNet-B0". The goal of this project is to classify chest X-ray (CXR) images into four categories: COVID-19, pneumonia, tuberculosis (TB), and healthy lungs using the EfficientNet-B0 model. Click [here](mendeley_model.html) to view the JupyterLabs Notebook code
 
 ## Overview
 
