@@ -35,8 +35,8 @@ To run the code in this repository, you need to have Python and PyTorch installe
 
 The data used in this study were sourced from two distinct datasets available on Mendeley Data:
 
-1. **Mendeley CXR dataset**: Includes images of COVID-19, pneumonia, and healthy lungs.
-2. **Mendeley TB dataset**: Includes images of tuberculosis (TB).
+1. **[Mendeley CXR dataset](https://data.mendeley.com/datasets/8gf9vpkhgy/1)**: Includes images of COVID-19, pneumonia, and healthy lungs (Danilov, 2022).
+2. **[Mendeley TB dataset](https://data.mendeley.com/datasets/8j2g3csprk/2)**: Includes images of tuberculosis (TB) (Kieran, 2024).
 
 To ensure approximate class balance, a subset of TB images was carefully selected. The final dataset used in this study contains the following number of images per class:
 
@@ -47,7 +47,7 @@ To ensure approximate class balance, a subset of TB images was carefully selecte
 
 ## Model Architecture
 
-EfficientNet-B0 is known for its high accuracy and efficiency in image classification tasks. The B0 model serves as the foundational model in the B-series, featuring mobile inverted bottleneck (MBConv) layers. The detailed architecture of the B0 model includes seven MBConv stages and operates at 0.39 GFLOPS.
+EfficientNet-B0 is known for its high accuracy and efficiency in image classification tasks. The B0 model serves as the foundational model in the B-series, featuring mobile inverted bottleneck (MBConv) layers. The detailed architecture of the B0 model includes seven MBConv stages and operates at 0.39 GFLOPS (Tan et al. 2019).
 
 ## Experimental Design
 
@@ -84,23 +84,15 @@ The EfficientNet-B0 model, despite its simplicity and lightweight design, shows 
 
 ## References
 
-- Nasiri et al., 2022
-- Karakanis et al., 2021
-- Kaur et al., 2023
-- Venkataramana et al., 2022
-- Kansal et al., 2023
-- Bashar et al., 2021
-- Kim et al., 2022
-- Bhandarani et al., 2022
-- Ahmed et al., 2023
-- Tan et al., 2019 (EfficientNet)
-- Sandler et al., 2018 (MobileNetV2)
-- PyTorch Documentation
-- Mendeley Data
+- Kiran, Saira; Jabeen, Dr Ishrat (2024), “Dataset of Tuberculosis Chest X-rays Images”, Mendeley Data, V2, doi: 10.17632/8j2g3csprk.2
+- Danilov, Viacheslav; Proutski, Alex; Kirpich, Alexander; Litmanovich, Diana; Gankin, Yuriy (2022), “Chest X-ray dataset for lung segmentation”, Mendeley Data, V1, doi: 10.17632/8gf9vpkhgy.1
+- Tan, Mingxing and Le, Quoc. Efficientnet: Rethinking model scaling for
+convolutional neural networks. In International conference on machine
+learning, pages 6105–6114. PMLR, 2019.
 
 ## Contact
 
-For any questions or comments, please contact Noah Anderson at nba6128@truman.edu.
+For any questions or comments, please contact Noah Anderson at noahanderson6556@gmail.com.
 
 ---
 
